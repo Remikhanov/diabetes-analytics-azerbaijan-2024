@@ -26,3 +26,31 @@ Python ilə təmizlənmiş, analiz edilmiş və vizuallaşdırılmışdır.
 | Power BI | İnteraktiv dashboard |
 
 ## 📁 Fayl Strukturu
+├── diabetes_data_cleaning.py   # Data cleaning pipeline
+├── Diabetes_Data.xlsx          # Raw + Clean dataset (3 sheet)
+└── README.md
+
+## 🔄 Data Cleaning Prosesi
+
+| Problem | Həll |
+|---------|------|
+| Mətn formatında yaş | word-to-int mapping |
+| Boş HbA1c dəyəri | Median imputation |
+| Outlier (HbA1c=78.5%) | IQR filter + klinik hüdud |
+| Dublikat pasiyent | drop_duplicates() |
+| Cins tutarsızlığı | Regex + map() |
+
+**Nəticə:** 80 → 76 sətir · Keyfiyyət skoru: 95%
+
+## 📊 Nəticələr
+
+Regional uyğunluq faizi:
+- 🟢 Bakı: 74% 
+- 🟡 Sumqayıt: 63%
+- 🟡 Şirvan: 58%
+- 🔴 Gəncə: 54%
+- 🔴 Lənkəran: 49%
+
+---
+**Müəllif:** Shamil Rəmikhanov · Data Analyst  
+**LinkedIn:** [linkedin.com/in/remikhanov-shamil](https://linkedin.com/in/remikhanov-shamil)
