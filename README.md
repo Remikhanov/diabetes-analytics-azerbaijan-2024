@@ -52,5 +52,5 @@ Regional uyğunluq faizi:
 - 🔴 Lənkəran: 49%
 
 ---
-**Müəllif:** Shamil Rəmikhanov · Data Analyst  
+**Müəllif:** Shamil Remikhanov · Data Analyst  
 **LinkedIn:** [linkedin.com/in/remikhanov-shamil](https://linkedin.com/in/remikhanov-shamil)
